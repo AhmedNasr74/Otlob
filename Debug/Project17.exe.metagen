@@ -1,0 +1,107 @@
+  Project17.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm11.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm_checkorder.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm_makeOrder.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm_Admain.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm_Customer.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyForm_payment.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyUserControl_CheckQu.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyUserControl_Deliveryboy.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyUserContro_bill.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyUserContro_Catagory.resources - Embedded, ContainedInManifestFile, 
+  Project17.MyUserContro_Register.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project17, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Database: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    openConnection(): PrivateScope, Public, HideBySig
+    closeConnection(): PrivateScope, Public, HideBySig
+    getConnection(): PrivateScope, Public, HideBySig
+Class Person: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setID(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetID(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setPassword(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPassword(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setUserName(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetUserName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setEmail(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetEmail(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setPhone(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPhone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    login(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Deliveryboy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, Int16, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 numoforders : Public
+    System.String ResturantID : Public
+  Methods:
+    setID(String): PrivateScope, Public, HideBySig
+    GetID(): PrivateScope, Public, HideBySig
+    setboyName(String): PrivateScope, Public, HideBySig
+    GetboyName(): PrivateScope, Public, HideBySig
+    setPhone(String): PrivateScope, Public, HideBySig
+    GetPhone(): PrivateScope, Public, HideBySig
+    incrementORDER(): PrivateScope, Public, HideBySig
+    UpdateLatestorder(String): PrivateScope, Public, HideBySig
+Class Project17.MyUserContro_Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyUserControl_Deliveryboy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm11: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyUserContro_bill: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyUserControl_Check: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm_Admain: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm_payment: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyUserContro_Catagory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm_checkorder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm_Customer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project17.MyForm_comment: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

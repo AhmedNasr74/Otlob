@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB177E88-1AE5-4C18-AAF4-89D524DE0963}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Project17</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="category.cpp" />
+    <ClCompile Include="container.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="Deliveryboy.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="Manger.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="MyForm11.cpp" />
+    <ClCompile Include="MyForm_Admain.cpp" />
+    <ClCompile Include="MyForm_checkorder.cpp" />
+    <ClCompile Include="MyForm_comment.cpp" />
+    <ClCompile Include="MyForm_Customer.cpp" />
+    <ClCompile Include="MyForm_payment.cpp" />
+    <ClCompile Include="MyUserControl_Check.cpp" />
+    <ClCompile Include="MyUserControl_Deliveryboy.cpp" />
+    <ClCompile Include="MyUserContro_bill.cpp" />
+    <ClCompile Include="MyUserContro_Catagory.cpp" />
+    <ClCompile Include="MyUserContro_Register.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Resturant.cpp" />
+    <ClCompile Include="Usercart.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="category.h" />
+    <ClInclude Include="container.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="Deliveryboy.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="Manger.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm11.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm_checkorder.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm_makeOrder.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm_Admain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm_Customer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm_payment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyUserControl_CheckQu.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="MyUserControl_Deliveryboy.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="MyUserContro_bill.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="MyUserContro_Catagory.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="MyUserContro_Register.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Resturant.h" />
+    <ClInclude Include="Usercart.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm11.resx">
+      <DependentUpon>MyForm11.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm_checkorder.resx">
+      <DependentUpon>MyForm_checkorder.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm_makeOrder.resx">
+      <DependentUpon>MyForm_makeOrder.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm_Admain.resx">
+      <DependentUpon>MyForm_Admain.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm_Customer.resx">
+      <DependentUpon>MyForm_Customer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm_payment.resx">
+      <DependentUpon>MyForm_payment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserControl_CheckQu.resx">
+      <DependentUpon>MyUserControl_CheckQu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserControl_Deliveryboy.resx">
+      <DependentUpon>MyUserControl_Deliveryboy.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserContro_bill.resx">
+      <DependentUpon>MyUserContro_bill.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserContro_Catagory.resx">
+      <DependentUpon>MyUserContro_Catagory.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserContro_Register.resx">
+      <DependentUpon>MyUserContro_Register.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

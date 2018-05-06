@@ -1,0 +1,72 @@
+﻿Build started 05/05/2018 05:58:38 م.
+     1>Project "H:\Projects\otlob\Project17\Project17.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1635,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Bunifu_UI_v1.5.3". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Management.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib category.cpp container.cpp Customer.cpp Database.cpp Deliveryboy.cpp item.cpp Manger.cpp MyForm.cpp MyForm1.cpp MyForm11.cpp MyForm_Admain.cpp MyForm_checkorder.cpp MyForm_comment.cpp MyForm_Customer.cpp MyForm_payment.cpp MyUserControl_Check.cpp MyUserControl_Deliveryboy.cpp MyUserContro_bill.cpp MyUserContro_Catagory.cpp MyUserContro_Register.cpp Order.cpp Person.cpp Resturant.cpp Usercart.cpp
+         category.cpp
+         container.cpp
+         Customer.cpp
+     1>Customer.cpp(203): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Database.cpp
+         Deliveryboy.cpp
+         item.cpp
+         Manger.cpp
+         MyForm.cpp
+     1>h:\projects\otlob\project17\MyUserControl_CheckQu.h(250): warning C4101: 'e' : unreferenced local variable
+     1>h:\projects\otlob\project17\MyUserContro_Catagory.h(586): warning C4101: 'e' : unreferenced local variable
+         MyForm1.cpp
+         MyForm11.cpp
+         MyForm_Admain.cpp
+     1>h:\projects\otlob\project17\MyUserControl_CheckQu.h(250): warning C4101: 'e' : unreferenced local variable
+         MyForm_checkorder.cpp
+         MyForm_comment.cpp
+         MyForm_Customer.cpp
+     1>h:\projects\otlob\project17\MyUserContro_Catagory.h(586): warning C4101: 'e' : unreferenced local variable
+         MyForm_payment.cpp
+         MyUserControl_Check.cpp
+         MyUserControl_Deliveryboy.cpp
+         MyUserContro_bill.cpp
+         MyUserContro_Catagory.cpp
+     1>h:\projects\otlob\project17\MyUserContro_Catagory.h(586): warning C4101: 'e' : unreferenced local variable
+         MyUserContro_Register.cpp
+         Generating Code...
+         Compiling...
+         Order.cpp
+         Person.cpp
+         Resturant.cpp
+         Usercart.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\shipsy\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Projects\otlob\Debug\Project17.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project17.MyForm.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm11.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm_checkorder.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm_makeOrder.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm_Admain.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm_Customer.resources /ASSEMBLYRESOURCE:Debug\Project17.MyForm_payment.resources /ASSEMBLYRESOURCE:Debug\Project17.MyUserControl_CheckQu.resources /ASSEMBLYRESOURCE:Debug\Project17.MyUserControl_Deliveryboy.resources /ASSEMBLYRESOURCE:Debug\Project17.MyUserContro_bill.resources /ASSEMBLYRESOURCE:Debug\Project17.MyUserContro_Catagory.resources /ASSEMBLYRESOURCE:Debug\Project17.MyUserContro_Register.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Projects\otlob\Debug\Project17.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\category.obj
+         Debug\container.obj
+         Debug\Customer.obj
+         Debug\Database.obj
+         Debug\Deliveryboy.obj
+         Debug\item.obj
+         Debug\Manger.obj
+         Debug\MyForm.obj
+         Debug\MyForm1.obj
+         Debug\MyForm11.obj
+         Debug\MyForm_Admain.obj
+         Debug\MyForm_checkorder.obj
+         Debug\MyForm_comment.obj
+         Debug\MyForm_Customer.obj
+         Debug\MyForm_payment.obj
+         Debug\MyUserControl_Check.obj
+         Debug\MyUserControl_Deliveryboy.obj
+         Debug\MyUserContro_bill.obj
+         Debug\MyUserContro_Catagory.obj
+         Debug\MyUserContro_Register.obj
+         Debug\Order.obj
+         Debug\Person.obj
+         Debug\Resturant.obj
+         Debug\Usercart.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Project17.vcxproj -> H:\Projects\otlob\Debug\Project17.exe
+     1>Done Building Project "H:\Projects\otlob\Project17\Project17.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.16
